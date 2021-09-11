@@ -80,8 +80,8 @@ class Game extends React.Component {
   jumpTo(step) {
     this.setState({
       stepnumber: step,
-      xIsNext: (step % 2) === 0,
-    })
+      xIsNext: step % 2 === 0,
+    });
   }
 
   render() {
@@ -92,7 +92,9 @@ class Game extends React.Component {
       const desc = move ? 'G0 to move #' + move : 'Go to game start';
       return (
         <li key={move}>
-          <button onClick={() => this.jumpTo(move)}>{desc}</button>
+          <button onClick={() => this.jumpTo(move)} className='go-to-move'>
+            {desc}
+          </button>
         </li>
       );
     });
@@ -105,17 +107,23 @@ class Game extends React.Component {
     }
 
     return (
-      <div className='game'>
-        <div className='game-board'>
-          <Board
-            squares={current.squares}
-            onClick={(i) => this.handleClick(i)}
-          />
+      <div className='bg-heading'>
+        <h1>Let's play Tic-tac-toe</h1>
+        <div className='game'>
+          <div className='games'>
+            <div className='game-board'>
+              <Board
+                squares={current.squares}
+                onClick={(i) => this.handleClick(i)}
+              />
+            </div>
+          </div>
+          <div className='game-info'>
+            <div>{status}</div>
+            <ol>{moves}</ol>
+          </div>
         </div>
-        <div className='game-info'>
-          <div>{status}</div>
-          <ol>{moves}</ol>
-        </div>
+        <div className='footer'><h4>Made with love 💖 by Juliana</h4></div>
       </div>
     );
   }

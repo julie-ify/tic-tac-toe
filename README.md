@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tic-tac-toe
 
-## Available Scripts
+> Tic-tac-toe, noughts and crosses, or Xs and Os, is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner
 
-In the project directory, you can run:
+![screenshot](./src/assets/images/scrnsht.png)
 
-### `yarn start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- JavaScript
+- Webpack
+- Jest
+- Babel
+- CSS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Live Demo
+Visit the live demo [here](https://bit.ly/3tI5qU1)
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `yarn build`
+#### To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Click the green `Code` button on the repo
+- In your local PC, open your terminal in the folder you would like to clone the project.
+- Clone the repo with the command: `git clone (copied link)`; like so: `git clone git@github.com:julie-ify/JavaScript-Capstone-project.git`
+- On the terminal, navigate into the directory like so: `cd JavaScript-Capstone-project`
+- Checkout to branch name like so: `git checkout [branch name]`
+- Run `npm i` to install the dependencies
+- Run `npm start` to start the application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### To run Test
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Run `npm run test`
 
-### `yarn eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Running `npm start` should start the server and open the `dist/index.html` file on the browser
+- Click the `like` icon to like a TV Show
+- Click the `Comment` to bring up the Comment modal
+- The Comment modal would list the comments of the show if they exist
+- You can type your name and comment to comment on the TV Show
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+👤 **Teddy-Livingstone Ememandu**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [GitHub](https://github.com/TedLivist)
+- [LinkedIn](https://linkedin.com/in/tememandu)
 
-## Learn More
+👤 **Juliana Ifionu 💖**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [GitHub](https://github.com/julie-ify)
+- [LinkedIn](https://www.linkedin.com/in/e-ifionu/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](../../issues/).
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
