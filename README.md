@@ -4,7 +4,7 @@
 
 > Tic-tac-toe, noughts and crosses, or Xs and Os, is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner
 
-![screenshot](./src/assets/images/scrnsht.png)
+![screenshot](./public/tic-img.png)
 
 ## Built With
 
@@ -16,7 +16,13 @@
 - CSS
 
 ## Live Demo
-Visit the live demo [here](https://bit.ly/3tI5qU1)
+Visit the live demo [here](https://julie-ify.github.io/tic-tac-toe/)
+
+## Description
+- This app lets you play tic-tac-toe,
+- Indicates when a player has won the game,
+- Stores a game’s history as a game progresses,
+- Allows players to review a game’s history and see previous versions of a game’s board.
 
 ## Getting Started
 
@@ -26,30 +32,18 @@ Visit the live demo [here](https://bit.ly/3tI5qU1)
 
 - Click the green `Code` button on the repo
 - In your local PC, open your terminal in the folder you would like to clone the project.
-- Clone the repo with the command: `git clone (copied link)`; like so: `git clone git@github.com:julie-ify/JavaScript-Capstone-project.git`
-- On the terminal, navigate into the directory like so: `cd JavaScript-Capstone-project`
+- Clone the repo with the command: `git clone (copied link)`; like so: `git clone git@github.com:julie-ify/tic-tac-toe.git`
+- On the terminal, navigate into the directory like so: `cd tic-tac-toe`
 - Checkout to branch name like so: `git checkout [branch name]`
 - Run `npm i` to install the dependencies
 - Run `npm start` to start the application
 
-#### To run Test
-
-- Run `npm run test`
-
 ### Usage
 
-- Running `npm start` should start the server and open the `dist/index.html` file on the browser
-- Click the `like` icon to like a TV Show
-- Click the `Comment` to bring up the Comment modal
-- The Comment modal would list the comments of the show if they exist
-- You can type your name and comment to comment on the TV Show
+- Running `npm start` should start the server and open the file on your default browser
+- Start playing tic-tac-toe
 
 ## Author
-
-👤 **Teddy-Livingstone Ememandu**
-
-- [GitHub](https://github.com/TedLivist)
-- [LinkedIn](https://linkedin.com/in/tememandu)
 
 👤 **Juliana Ifionu 💖**
 
@@ -60,7 +54,7 @@ Visit the live demo [here](https://bit.ly/3tI5qU1)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/julie-ify/tic-tac-toe/issues).
 
 ## Show your support
 
@@ -68,6 +62,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to [Reactjs](https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial)
+- [Microverse](https://github.com/microverseinc)
