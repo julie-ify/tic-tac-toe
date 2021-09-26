@@ -44,7 +44,7 @@ Visit the live demo [here](https://julie-ify.github.io/tic-tac-toe/)
 
 ## Author
 
-👤 **Juliana Ifionu 💖**
+👤 **Juliana Ifionu 💖***
 
 - [GitHub](https://github.com/julie-ify)
 - [LinkedIn](https://www.linkedin.com/in/e-ifionu/)
